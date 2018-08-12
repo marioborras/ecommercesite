@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width:100%;
+    height: 100%;
+    font: normal 14px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+    /* background: #cfd8dc; */
+    /* color: #37474f; */
+    /* border: 2px solid red; */
+}
+/* #logo {
+    position: relative; */
+
+#menu {
+    margin-top: -6px;
+    background: #444444;
+    font-size: 1.3em;
+   
+
+}
+ul {
+    width: 100%;
+    list-style: none;
+
+
+}
+ul li {
+    position: relative; 
+    /* float: left;  save this for desktop. */
+
+}
+ ul li a { background: #444444; 
+    color: white;
+     display: block;
+    font-family: Arial, Helvetica, sans-serif;   
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+
+
+ul li a:hover { 
+        background: red; 
+}
+    
+
+
+
+
+#logo img {
+    position:static;
+    width:  200px;
+    height: 100px;
+    left: 50%;
+    max-width: 200px;
+}
+#container{
+    min-height:100%;
+    position:relative;
+ }
+
+
+.interior {
+    /* border: 2px solid blue; */
+    float: left;
+    padding-top: 125px;
+    padding-left: 25px;
+    width:300px;
+    height: 400px;
+    font-family: "FuturaW01-Medium","Trebuchet MS",Arial,sans-serif,sans-serif;
+    font-weight: bold;
+
+
+}
+.price {
+    font-size: 2.0em;
+}
+button {
+    width: 75px;
+    height: 25px;
+}
+
+#main {
+    position: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    overflow: auto;
+    padding-bottom:100px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+    background:#6cf;
+ }
+
+ #header {
+
+    position:static;
+    top:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+    background-color:#6cf;
+ }
+#interior {
+    max-width: 300px;
+}
+
+@media only screen and (min-width : 660px) {
+    ul  { 
+        display: flex;
+        justify-content: space-around;
+        }
+    ul {
+        width: 70%;
+    margin: auto;
+    }
+    #menu {
+       
+        text-align: center;
+    }
+    .interior {
+        padding-top: 0px;
+
+    }
+}
