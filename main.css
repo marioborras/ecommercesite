@@ -12,7 +12,7 @@ body {
 
 #menu {
     margin-top: -6px;
-    background: #444444;
+    background: #dd013e;
     font-size: 1.3em;
    
 
@@ -25,25 +25,23 @@ ul {
 }
 ul li {
     position: relative; 
-    /* float: left;  save this for desktop. */
 
 }
- ul li a { background: #444444; 
+ ul li a { 
     color: white;
      display: block;
     font-family: Arial, Helvetica, sans-serif;   
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    height: 33px
  }
 
 
 ul li a:hover { 
-        background: red; 
+        background: #000f39ed; 
 }
     
-
-
 
 
 #logo img {
@@ -52,6 +50,7 @@ ul li a:hover {
     height: 100px;
     left: 50%;
     max-width: 200px;
+    margin-left: 20px;
 }
 #container{
     min-height:100%;
@@ -61,12 +60,13 @@ ul li a:hover {
 
 .interior {
     float: left;
-    padding-top: 125px;
+    padding-top: 138px;
     padding-left: 25px;
     width:300px;
     height: 400px;
     font-weight: bold;
     position: relative;
+    border-bottom: 2px solid black;
 
 
 }
@@ -85,16 +85,19 @@ button {
     position: absolute;
     bottom: 0;
     right: 0;
+        margin-bottom: 20px;
+
 }
 
 #main {
-    position: flex;
-    flex-direction:row;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-wrap: flex; */
+    /* flex-direction:row; */
+    /* justify-content: space-between; */
     overflow: auto;
     padding-bottom:100px;
-    padding-top: 100px;
-    align-items: center;
+    padding-top: 125px;
+    /* align-items: center; */
 }
 
 footer {
@@ -102,7 +105,11 @@ footer {
     bottom:0;
     width:100%;
     height:100px;   /* Height of the footer */
-    background:#6cf;
+    background:#000f39;
+ }
+ #footerList {
+     background-color: #000f39 ;
+
  }
 
  #header {
@@ -111,7 +118,7 @@ footer {
     top:0;
     width:100%;
     height:100px;   /* Height of the footer */
-    background-color:#6cf;
+    background-color: white;
  }
 #interior {
     max-width: 300px;
@@ -134,10 +141,18 @@ footer {
         padding-top: 0px;
 
     }
-    /* #header {
+    #header {
         position: fixed;
+        z-index:1;
         top: 0;
         left: 0;
-    } */
+    }
+    #main {
+        padding-top: 145px;
+
+    }
+    .interior {
+        margin-bottom: 26px;
+    }
    
 }
