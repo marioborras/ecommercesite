@@ -2,27 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    width:100%;
-    height: 100%;
     font-family: "FuturaW01-Medium","Trebuchet MS",Arial,sans-serif,sans-serif;
-
 }
-
 
 #menu {
     margin-top: -6px;
     background: #dd013e;
     font-size: 1.3em;
-   
-
 }
+
+
 ul {
     width: 100%;
     list-style: none;
-
-
 }
+
 ul li {
     position: relative; 
 
@@ -43,36 +39,31 @@ ul li a:hover {
 }
     
 
-
 #logo img {
-    position:static;
     width:  200px;
     height: 100px;
-    left: 50%;
     max-width: 200px;
     margin-left: 20px;
 }
 #container{
-    min-height:100%;
     position:absolute;
  }
 
-
 .interior {
-    float: left;
     padding-top: 138px;
     padding-left: 25px;
     width:300px;
     height: 400px;
     font-weight: bold;
     position: relative;
-    border-bottom: 2px solid black;
-
+    border-bottom: 2px solid gray;
 
 }
+
 .price {
     font-size: 2.0em;
 }
+
 button {
     background-color: #2c2c2c;
     padding: 6px, 12px;
@@ -85,19 +76,18 @@ button {
     position: absolute;
     bottom: 0;
     right: 0;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
 #main {
-    /* display: flex; */
-    /* flex-wrap: flex; */
-    /* flex-direction:row; */
-    /* justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     overflow: auto;
     padding-bottom:100px;
     padding-top: 125px;
-    /* align-items: center; */
+    width: 100%;
 }
 
 footer {
@@ -109,7 +99,7 @@ footer {
  }
  #footerList {
      background-color: #000f39 ;
-
+     
  }
 
  #header {
