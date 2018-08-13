@@ -5,13 +5,10 @@
 body {
     width:100%;
     height: 100%;
-    font: normal 14px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
-    /* background: #cfd8dc; */
-    /* color: #37474f; */
-    /* border: 2px solid red; */
+    font-family: "FuturaW01-Medium","Trebuchet MS",Arial,sans-serif,sans-serif;
+
 }
-/* #logo {
-    position: relative; */
+
 
 #menu {
     margin-top: -6px;
@@ -58,19 +55,18 @@ ul li a:hover {
 }
 #container{
     min-height:100%;
-    position:relative;
+    position:absolute;
  }
 
 
 .interior {
-    /* border: 2px solid blue; */
     float: left;
     padding-top: 125px;
     padding-left: 25px;
     width:300px;
     height: 400px;
-    font-family: "FuturaW01-Medium","Trebuchet MS",Arial,sans-serif,sans-serif;
     font-weight: bold;
+    position: relative;
 
 
 }
@@ -78,8 +74,17 @@ ul li a:hover {
     font-size: 2.0em;
 }
 button {
-    width: 75px;
-    height: 25px;
+    background-color: #2c2c2c;
+    padding: 6px, 12px;
+    height: 45px;
+    width: 200px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "FuturaW01-Medium","Trebuchet MS",Arial,sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #main {
@@ -129,4 +134,10 @@ footer {
         padding-top: 0px;
 
     }
+    /* #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+    } */
+   
 }
